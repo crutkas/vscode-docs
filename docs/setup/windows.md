@@ -115,6 +115,9 @@ After you install {% data variables.product.prodname_vscode_shortname %}, finish
 * [Set up GitHub Copilot](/docs/setup/copilot.md) to use AI features in {% data variables.product.prodname_vscode_shortname %}.
 * [Start the {% data variables.product.prodname_vscode_shortname %} tutorial](/docs/editing/getting-started/editor-tutorial.md) for a hands-on tour of the user interface and key features.
 
+> [!NOTE]
+> **Windows environment provisioning (Preview, personal fork)**: To evaluate scripted setup on a disposable Windows development VM, review the [Windows onboarding preview guide](https://github.com/crutkas/WindowsDeveloperConfig-oem/blob/crutkas-devconfig-fork-only-workloads/src/docs/windows-onboarding-preview.md), including its prerequisites and package terms. This unsigned source preview in `crutkas/WindowsDeveloperConfig-oem` is not an official {% data variables.product.prodname_vscode_shortname %} recommendation. From the reviewed fork checkout, `.\src\Workloads\install-source.ps1 -Workload vscode` installs only the editor. Choose language workloads such as `node`, `python`, or `rust` separately, and install extensions as described above. These focused workloads do not run the full workstation setup, install WSL, or personalize your terminal.
+
 ## Common questions
 
 <details>
